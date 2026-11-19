@@ -99,7 +99,7 @@ Built with Python 🐍
 ```bash
 pkg update && pkg upgrade -y
 pkg install python git -y
-git clone https://github.com/limbubib710-arch/cyber-osint-x-destroyer.git
-cd cyber-osint-x-destroyer
+git clone https://github.com/limbubib710-arch/cyber_osint.git
+cd cyber_osint
 pip install -r requirements.txt
-python cyber_osint.py
+python facebookosint.py
