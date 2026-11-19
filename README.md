@@ -41,15 +41,6 @@ A powerful terminal-based information analysis and defensive network security to
 - Progress indicators
 - TXT and JSON report export
 
-📲 Installation (Termux)
-
-pkg update && pkg upgrade -y
-pkg install python git -y
-git clone https://github.com/limbubib710-arch/cyber-osint-x-destroyer.git
-cd cyber-osint-x-destroyer
-pip install -r requirements.txt
-python cyber_osint.py
-
 🐍 Pydroid 3 Installation
 
 1. Install Pydroid 3.
@@ -102,3 +93,13 @@ Version: 1.0.0
 ⭐ If you find this project useful, consider starring the repository on GitHub.
 
 Built with Python 🐍
+
+📲 Installation (Termux)
+
+```bash
+pkg update && pkg upgrade -y
+pkg install python git -y
+git clone https://github.com/limbubib710-arch/cyber-osint-x-destroyer.git
+cd cyber-osint-x-destroyer
+pip install -r requirements.txt
+python cyber_osint.py
